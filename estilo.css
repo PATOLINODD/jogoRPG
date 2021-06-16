@@ -1,0 +1,67 @@
+	#intro {
+		display: flex;
+		flex-flow: column;
+		background-image: url('imagens/apocalipse.jpg');
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	
+	
+	h1 {
+		color: yellow;
+		background-color: red;
+		text-align: center;
+		border-radius: 2em;
+	}
+	#quadro {
+		border: 3px solid red;
+		background-color: yellow;
+		margin: 0% 18% 0% 18%;
+	}
+	#quadro > p {
+		text-align: center;
+	}
+	main {
+		display: flex;
+		justify-content: space-around;
+	}
+	footer {
+		text-align: center;
+		color: white;
+	}
+	.tamIMG {
+		margin: 10% 0% 50% 0%;
+		width: 20em;
+	}
+	
+	button {
+		border-radius: 2em;
+		background-color: yellow;
+	}
+
+	#fada {
+		background-image: url('imagens/forest_dnd.jpg');
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+
+	#mago {
+		background-image: url('imagens/supermago.jpg');
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+
+	#lorde {
+		background-image: url('imagens/lordzedd.jpg');
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+
+	section {
+		display: flex;
+		flex-flow: column wrap;
+		align-items: center;
+		text-align: center;
+		color: white;
+		background-color: blue;
+	}
